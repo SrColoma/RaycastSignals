@@ -1,6 +1,6 @@
-# Follow-Transform
-## Description
-Follow-Transform is a node that performs the inverse operation of the Remote Transform node in Godot Engine. It enables one object to follow the transformations of another object.
+# RaycastSignals
+## A node that adds signals to a Raycast.
 
-## Usage
-Simply add Follow-Transform as a component to an object, and assign the target property to the object you want it to follow.
+RaycastSignals is added as a child to a Raycast3D or Raycast2D node.
+and allows using signals that indicate when a body enters collision, when it remains colliding, and when it exits collision.
+The signals are body_just_entered, body_inside, and body_exited.
